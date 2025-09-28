@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Home • Campus Nova</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container navbar">
+      <div class="brand"><span class="crest" aria-hidden="true"></span><span>Campus <span style="background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent;">Nova</span></span></div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+    <a href="page2.html">Programs</a>
+    <a href="page3.html">Courses</a>
+    <a href="page4.html">Departments</a>
+    <a href="page5.html">Faculty</a>
+    <a href="page6.html" class="plan-pill">Plan <span class="plan-count">0</span></a>
+    <a href="page7.html">Admissions</a>
+    <a href="page8.html">Resources</a>
+    <a href="page9.html">News</a>
+    <a href="page10.html">Contact</a>
+    <button id="theme-toggle" class="toggle">Dark Mode</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="app">
+    
+<section class="hero">
+  <div class="panel">
+    <h1 style="margin:.2rem 0 0 0;">Welcome to <span class="badge">Campus Nova</span></h1>
+    <p class="lead">Explore programs, discover courses, curate your study plan, and learn about admissions. Switch between light/dark styles with the toggle in the nav.</p>
+    <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.6rem;">
+      <a class="btn primary" href="page3.html">Browse Courses</a>
+      <a class="btn" href="page6.html">My Plan</a>
+    </div>
+  </div>
+  <div class="art">Learn 🎓</div>
+</section>
+
+<section style="margin-top:1rem;" class="grid cols-3">
+  <article class="card"><h3>Undergraduate</h3><p>BSc programs across CS, Math, and Engineering.</p><a class="btn" href="page2.html">Explore</a></article>
+  <article class="card"><h3>Graduate</h3><p>Advanced study with research mentors.</p><a class="btn" href="page2.html#grad">Explore</a></article>
+  <article class="card"><h3>Admissions</h3><p>Key dates, requirements, and aid.</p><a class="btn" href="page7.html">Learn more</a></article>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;">
+      <p><small class="muted">© <span id="year"></span> Campus Nova • Demo</small></p>
+      <p><small class="muted">Static site • No backend</small></p>
+    </div>
+  </footer>
+  <!-- Decoy: home. -->
+</body>
+</html>

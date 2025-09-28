@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Courses • Campus Nova</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container navbar">
+      <div class="brand"><span class="crest" aria-hidden="true"></span><span>Campus <span style="background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent;">Nova</span></span></div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+    <a href="page2.html">Programs</a>
+    <a href="page3.html">Courses</a>
+    <a href="page4.html">Departments</a>
+    <a href="page5.html">Faculty</a>
+    <a href="page6.html" class="plan-pill">Plan <span class="plan-count">0</span></a>
+    <a href="page7.html">Admissions</a>
+    <a href="page8.html">Resources</a>
+    <a href="page9.html">News</a>
+    <a href="page10.html">Contact</a>
+    <button id="theme-toggle" class="toggle">Dark Mode</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="app">
+    <h2>Courses</h2>
+<p class='lead'>Add courses to your study plan. Your selections are saved locally in this browser.</p>
+<div class='grid cols-3'>
+
+  <article class="card">
+    <h3>CS101</h3>
+    <p><strong>Intro to Computer Science</strong></p>
+    <p>Units: 4</p>
+    <button class="btn" onclick='addToPlan({"id": "c-101", "code": "CS101", "name": "Intro to Computer Science", "units": 4})'>Add to Plan</button>
+  </article>
+
+  <article class="card">
+    <h3>CS205</h3>
+    <p><strong>Data Structures &amp; Algorithms</strong></p>
+    <p>Units: 4</p>
+    <button class="btn" onclick='addToPlan({"id": "c-102", "code": "CS205", "name": "Data Structures & Algorithms", "units": 4})'>Add to Plan</button>
+  </article>
+
+  <article class="card">
+    <h3>CS220</h3>
+    <p><strong>Web Development Fundamentals</strong></p>
+    <p>Units: 3</p>
+    <button class="btn" onclick='addToPlan({"id": "c-103", "code": "CS220", "name": "Web Development Fundamentals", "units": 3})'>Add to Plan</button>
+  </article>
+
+  <article class="card">
+    <h3>CS240</h3>
+    <p><strong>Databases &amp; SQL</strong></p>
+    <p>Units: 3</p>
+    <button class="btn" onclick='addToPlan({"id": "c-104", "code": "CS240", "name": "Databases & SQL", "units": 3})'>Add to Plan</button>
+  </article>
+
+  <article class="card">
+    <h3>CS260</h3>
+    <p><strong>Networks &amp; Security Basics</strong></p>
+    <p>Units: 3</p>
+    <button class="btn" onclick='addToPlan({"id": "c-105", "code": "CS260", "name": "Networks & Security Basics", "units": 3})'>Add to Plan</button>
+  </article>
+
+  <article class="card">
+    <h3>DS310</h3>
+    <p><strong>Applied Machine Learning</strong></p>
+    <p>Units: 4</p>
+    <button class="btn" onclick='addToPlan({"id": "c-106", "code": "DS310", "name": "Applied Machine Learning", "units": 4})'>Add to Plan</button>
+  </article>
+
+  <article class="card">
+    <h3>EE150</h3>
+    <p><strong>Digital Systems</strong></p>
+    <p>Units: 3</p>
+    <button class="btn" onclick='addToPlan({"id": "c-107", "code": "EE150", "name": "Digital Systems", "units": 3})'>Add to Plan</button>
+  </article>
+
+  <article class="card">
+    <h3>MATH210</h3>
+    <p><strong>Discrete Mathematics</strong></p>
+    <p>Units: 3</p>
+    <button class="btn" onclick='addToPlan({"id": "c-108", "code": "MATH210", "name": "Discrete Mathematics", "units": 3})'>Add to Plan</button>
+  </article>
+
+</div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;">
+      <p><small class="muted">© <span id="year"></span> Campus Nova • Demo</small></p>
+      <p><small class="muted">Static site • No backend</small></p>
+    </div>
+  </footer>
+  <!-- =========================================
+👇 Hidden Flag (find via “View Source”)
+FLAG{CAMPUS-NOVA-CTF-2025-SEP-27}
+========================================= -->
+</body>
+</html>
